@@ -1,0 +1,31 @@
+/*tarjeta*/
+
+.tarjetas {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $color-blanco;
+    padding: 10px;
+}
+
+.card {
+    width: 30%;
+    height: 650px;
+    background-color: rgb(219, 218, 218);
+    border: 5px solid rgb(39, 39, 39);
+}
+
+.card_img {
+    height: 160px;
+    background-color: $color-violeta;
+    background-size: cover;
+    background-position: center;
+}
+
+.card_title {
+    margin-top: 10px;
+    color: $color-violeta;
+    text-align: center;
+    font-size: 25px;
+}

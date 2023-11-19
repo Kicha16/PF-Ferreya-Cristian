@@ -1,0 +1,270 @@
+/*PAGINA PRODUCTOS*/
+
+/*main contenedor*/
+
+.main-contenedor {
+    background: $color-blanco;
+}
+
+/*FEACTURES*/
+
+.container-features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 3rem 0;
+}
+
+.tarjeta-feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: $color-rosa;
+    border-radius: 1rem;
+    padding: 1.5rem 0;
+
+    i {
+        font-size: 2.7rem;
+        color: $color-blanco;
+    }
+}
+
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    span {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: rgb(5, 5, 5);
+    }
+
+    p {
+        color: $color-violeta;
+        font-weight: 500;
+    }
+}
+
+/*CATEGORIAS*/
+
+.contenedor-top-categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contenedor-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.tarjeta-categoria {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 2rem;
+}
+
+.categoria-placas {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.categoria-mother {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.categoria-procesadores {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.tarjeta-categoria {
+    p {
+        font-size: 2.5rem;
+        color: #2e2929;
+        text-transform: capitalize;
+        position: relative;
+
+        &::after {
+            content: "";
+            width: 2.5rem;
+            height: 2px;
+            background-color: $color-blanco;
+            position: absolute;
+            bottom: -1rem;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+    }
+
+    span {
+        font-size: 1.6rem;
+        color: $color-violeta;
+        cursor: pointer;
+
+        &:hover {
+            color: $color-rosa;
+        }
+    }
+}
+
+.heading-1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+/*TOP PRODUCTOS*/
+
+.contenedor-top-productos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contenedor-options {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+
+    span {
+        color: #000000;
+        background-color: $color-blanco;
+        padding: 0.7rem 3rem;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+        border-radius: 2rem;
+        cursor: pointer;
+
+        &:hover,
+        .active {
+            background-color: $color-rosa;
+            color: $color-blanco;
+        }
+    }
+}
+
+/*PRODUCTOS*/
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 3rem;
+}
+
+.tarjeta-producto {
+    background-color: $color-blanco;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.623);
+}
+
+.contenedor-img {
+    position: relative;
+
+    img {
+        width: 450px;
+        height: 450px;
+        margin: 0 15;
+    }
+
+    .discount {
+        position: relative;
+        left: 0;
+        background-color: $color-rosa;
+        color: #fff;
+        padding: 2px 1.2rem;
+        border-radius: 1rem;
+        font-size: 1.2rem;
+    }
+}
+
+.tarjeta-producto:hover .discount {
+    background-color: $color-negro;
+}
+
+.content-tarjeta-producto {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, min-content);
+    row-gap: 1rem;
+}
+
+.starts {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+
+    i {
+        font-size: 1.3rem;
+        color: #232224;
+    }
+}
+
+.content-tarjeta-producto h3 {
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        color: $color-rosa;
+    }
+}
+
+.add-tarjeta {
+    justify-self: start;
+    border: 1px solid $color-negro;
+    padding: 3rem;
+    border-radius: 35%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: $color-rosa;
+    }
+
+    i {
+        font-size: 1.5rem;
+        color: $color-rosa;
+    }
+
+    &:hover i {
+        color: $color-blanco;
+    }
+}
+
+.contenedor-tarjeta-producto .precio {
+    justify-self: end;
+    align-self: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.content-tarjeta-producto .precio span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #777;
+    margin-left: 0.5rem;
+}
