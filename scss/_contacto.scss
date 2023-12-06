@@ -63,7 +63,7 @@
         border: none;
         background: none;
         outline: 0;
-        color: #f3eeee !important;
+        color: $color-blanco !important;
         border-bottom: 1px solid #cecbcf;
       }
   
@@ -75,7 +75,7 @@
   
         &:hover, &:focus {
           background: #8d51c5;
-          color: #161616;
+          color: $color-negro;
           transition: 1s ease-out;
           outline: 0;
         }
@@ -102,9 +102,9 @@
       text-align: justify;
       margin: auto;
       margin-top: 50px;
-      color: #f8f8f8;
+      color: $color-blanco;
       font-size: 25px;
-      text-shadow: 10px 10px 5px black;
+      text-shadow: 10px 10px 5px $color-negro;
       font-style: oblique;
     }
   }

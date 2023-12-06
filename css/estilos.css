@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 :root {
-  --primary-color:#913976;
-  --background-color:#ffffff;
-  --dark-color:#000000;
+  --primary-color: #913976;
+  --background-color: #ffffff;
+  --dark-color: #000000;
 }
 
 html {
@@ -34,7 +34,7 @@ html {
 /*               HEADER               */
 /* ********************************** */
 .container-hero {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .hero {
@@ -65,7 +65,7 @@ html {
 }
 .container-logo a {
   text-decoration: none;
-  color: #000;
+  color: #2a2a2a;
   font-size: 5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -80,7 +80,7 @@ html {
   font-size: 3rem;
   color: var(--primary-color);
   padding-right: 2.5rem;
-  border-right: 1px solid #e2e2e2;
+  border-right: 1px solid #ffffff;
 }
 .container-user .fa-basket-shopping {
   font-size: 3rem;
@@ -124,7 +124,7 @@ html {
   content: "";
   width: 1.5rem;
   height: 1px;
-  background-color: #fff !important;
+  background-color: #ffffff !important;
   position: absolute;
   bottom: -3px;
   left: 50%;
@@ -133,7 +133,7 @@ html {
   transition: all 0.3s ease;
 }
 .nav-item a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 .nav-item a:hover::after {
   opacity: 1;
@@ -161,7 +161,7 @@ html {
   font-weight: 500;
 }
 .content-banner h2 {
-  color: #fff;
+  color: #ffffff;
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -170,7 +170,7 @@ html {
   margin-top: 2rem;
   text-decoration: none;
   color: #ffffff;
-  background-color: black;
+  background-color: #2a2a2a;
   display: inline-block;
   padding: 1rem 3rem;
   text-transform: uppercase;
@@ -225,12 +225,12 @@ html {
 
 .information ul li a, .my-account ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-weight: 300;
 }
 
 .information ul li a:hover, .my-account ul li a:hover {
-  color: white;
+  color: #ffffff;
 }
 
 .social-icons {
@@ -246,7 +246,7 @@ html {
   justify-content: center;
 }
 .social-icons span i {
-  color: #fff;
+  color: #ffffff;
   font-size: 1.2rem;
 }
 
@@ -272,7 +272,7 @@ html {
 
 .content p {
   font-size: 1.4rem;
-  color: #fff;
+  color: #ffffff;
   font-weight: 300;
 }
 .content input {
@@ -294,8 +294,8 @@ html {
 }
 .content button {
   border: none;
-  background-color: #000;
-  color: #fff;
+  background-color: #2a2a2a;
+  color: #ffffff;
   text-transform: uppercase;
   padding: 1rem 3rem;
   border-radius: 2rem;
@@ -318,7 +318,7 @@ html {
 .copyright p {
   font-weight: 400;
   font-size: 1.6rem;
-  color: #e2e2e2;
+  color: #ffffff;
 }
 
 /* PAGINA CONTACTO*/
@@ -380,7 +380,7 @@ ul {
   border: none;
   background: none;
   outline: 0;
-  color: #f3eeee !important;
+  color: #ffffff !important;
   border-bottom: 1px solid #cecbcf;
 }
 .contact-form form button {
@@ -391,7 +391,7 @@ ul {
 }
 .contact-form form button:hover, .contact-form form button:focus {
   background: #8d51c5;
-  color: #161616;
+  color: #2a2a2a;
   transition: 1s ease-out;
   outline: 0;
 }
@@ -414,9 +414,9 @@ ul {
   text-align: justify;
   margin: auto;
   margin-top: 50px;
-  color: #f8f8f8;
+  color: #ffffff;
   font-size: 25px;
-  text-shadow: 10px 10px 5px black;
+  text-shadow: 10px 10px 5px #2a2a2a;
   font-style: oblique;
 }
 
@@ -514,20 +514,20 @@ ul {
 .category-procesadores {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("../img/procesadores.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
 .category-motherboards {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("../img/procesadoresdepc.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
 .card-category p {
   font-size: 2.5rem;
-  color: #fff;
+  color: #ffffff;
   text-transform: capitalize;
   position: relative;
 }
@@ -535,7 +535,7 @@ ul {
   content: "";
   width: 2.5rem;
   height: 2px;
-  background-color: #fff;
+  background-color: #ffffff;
   position: absolute;
   bottom: -1rem;
   left: 50%;
@@ -543,7 +543,7 @@ ul {
 }
 .card-category span {
   font-size: 1.6rem;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
 }
 .card-category span:hover {
@@ -568,7 +568,7 @@ ul {
 }
 .container-options span {
   color: #777;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 0.7rem 3rem;
   font-size: 1.4rem;
   text-transform: capitalize;
@@ -577,7 +577,7 @@ ul {
 }
 .container-options span:hover, .container-options span.active {
   background-color: var(--primary-color);
-  color: #fff;
+  color: #ffffff;
 }
 
 /* Products */
@@ -589,7 +589,7 @@ ul {
 }
 
 .card-product {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 2rem 3rem;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -606,14 +606,14 @@ ul {
   position: absolute;
   left: 0;
   background-color: var(--primary-color);
-  color: #fff;
+  color: #ffffff;
   padding: 2px 1.2rem;
   border-radius: 1rem;
   font-size: 1.2rem;
 }
 
 .card-product:hover .discount {
-  background-color: #000;
+  background-color: #2a2a2a;
 }
 
 .button-group {
@@ -644,7 +644,7 @@ ul {
   color: var(--primary-color);
 }
 .button-group span:hover i {
-  color: #fff;
+  color: #ffffff;
 }
 
 .card-product:hover .button-group {
@@ -700,7 +700,7 @@ ul {
   color: var(--primary-color);
 }
 .add-cart:hover i {
-  color: #fff;
+  color: #ffffff;
 }
 
 .content-card-product .price {
@@ -781,7 +781,7 @@ ul {
 }
 
 .button-group-blog span {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 1rem;
   border-radius: 50%;
   transition: all 0.4s ease;
@@ -796,7 +796,7 @@ ul {
   background-color: var(--primary-color);
 }
 .button-group-blog span:hover i {
-  color: #fff;
+  color: #ffffff;
 }
 
 .content-blog h3 {
@@ -822,7 +822,7 @@ ul {
 .btn-read-more {
   padding: 1rem 3rem;
   background-color: var(--primary-color);
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 1.4rem;
   border-radius: 2rem;
@@ -872,7 +872,7 @@ ul {
 }
 
 h1 {
-  color: #333;
+  color: #2a2a2a;
   margin-bottom: 60px;
 }
 
@@ -906,7 +906,7 @@ iframe {
   font-weight: 500;
 }
 .content-banner h2 {
-  color: #fff;
+  color: #ffffff;
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -914,7 +914,7 @@ iframe {
 .content-banner a {
   margin-top: 2rem;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   background-color: var(--primary-color);
   display: inline-block;
   padding: 1rem 3rem;
@@ -940,7 +940,7 @@ iframe {
   }
   .navbar .fa-bars {
     display: block;
-    color: #fff;
+    color: #ffffff;
     font-size: 3rem;
   }
   .menu {

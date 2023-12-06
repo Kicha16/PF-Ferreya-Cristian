@@ -22,7 +22,7 @@
     }
   
     h2 {
-      color: #fff;
+      color: $color-blanco;
       font-size: 2.5rem;
       font-weight: 500;
       line-height: 1.2;
@@ -31,8 +31,8 @@
     a {
       margin-top: 2rem;
       text-decoration: none;
-      color: #ffffff;
-      background-color: black;
+      color: $color-blanco;
+      background-color: $color-negro;
       display: inline-block;
       padding: 1rem 3rem;
       text-transform: uppercase;

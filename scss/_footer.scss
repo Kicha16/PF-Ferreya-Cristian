@@ -40,19 +40,19 @@
   
   .contact-info ul li, .information ul li, .my-account ul li {
     list-style: none;
-    color: #ffffff;
+    color: $color-blanco;
     font-size: 1.4rem;
     font-weight: 300;
   }
   
   .information ul li a, .my-account ul li a {
     text-decoration: none;
-    color: #fff;
+    color: $color-blanco;
     font-weight: 300;
   }
   
   .information ul li a:hover, .my-account ul li a:hover {
-    color: white;
+    color: $color-blanco;
   }
   
   .social-icons {
@@ -68,7 +68,7 @@
       justify-content: center;
   
       i {
-        color: #fff;
+        color: $color-blanco;
         font-size: 1.2rem;
       }
     }
@@ -97,7 +97,7 @@
   .content {
     p {
       font-size: 1.4rem;
-      color: #fff;
+      color: $color-blanco;
       font-weight: 300;
     }
   
@@ -122,8 +122,8 @@
   
     button {
       border: none;
-      background-color: #000;
-      color: #fff;
+      background-color: $color-negro;
+      color: $color-blanco;
       text-transform: uppercase;
       padding: 1rem 3rem;
       border-radius: 2rem;
@@ -148,7 +148,7 @@
     p {
       font-weight: 400;
       font-size: 1.6rem;
-      color: #e2e2e2;
+      color: $color-blanco;
     }
   }
   
