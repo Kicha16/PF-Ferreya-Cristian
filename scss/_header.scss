@@ -1,13 +1,122 @@
-/*HEADER */
+/* ********************************** */
+/*               HEADER               */
+/* ********************************** */
 
-.navbar {
-    background-color: $color-violeta !important;
-}
+.container-hero {
+    background-color: white;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .customer-support {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  
+    i {
+      font-size: 3.3rem;
+    }
+  }
+  
+  .content-customer-support {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+  
+  .container-user {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+  
+    .fa-user {
+      font-size: 3rem;
+      color: var(--primary-color);
+      padding-right: 2.5rem;
+      border-right: 1px solid #e2e2e2;
+    }
+  
+    .fa-basket-shopping {
+      font-size: 3rem;
+      color: var(--primary-color);
+      padding-left: 1rem;
+    }
+  }
+  
+  .content-shopping-cart {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* ************* NAVBAR ************* */
+  
+  .navbar {
+    background-color: #913976 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  
+    .fa-bars {
+      display: none;
+    }
+  }
+  
+  .nav-item {
+    display: flex;
+    gap: 2rem;
+  
+    li {
+      list-style: none;
+    }
+  
+    a {
+      text-decoration: none;
+      font-size: 1.3rem;
+      color: rgb(255, 255, 255) !important;
+      font-weight: 600;
+      text-transform: uppercase;
+      position: relative;
+  
+      &::after {
+        content: '';
+        width: 1.5rem;
+        height: 1px;
+        background-color: #fff !important;
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        opacity: 0;
+        transition: all 0.3s ease;
+      }
+  
+      &:hover {
+        &::after {
+          opacity: 1;
+        }
+  
+        color: #fff;
+      }
+    }
+  }
+  
 
-.nav-link {
-    color: rgb(255, 255, 255) !important;
-}
-
-.navbar-brand {
-    font-size: 2rem;
-}
